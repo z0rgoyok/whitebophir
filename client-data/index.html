@@ -2,25 +2,25 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <title>wasteland_w / board</title>
+    <title>кровоизлияние. / доска</title>
     <link rel="stylesheet" href="index.css" />
     <meta
       name="description"
-      content="Общая онлайн-доска wasteland_w для идей, схем и быстрых набросков"
+      content="Общая онлайн-доска канала кровоизлияние. для разборов, мемов, тестов и коллективных набросков"
     />
     <meta
       name="keywords"
-      content="whiteboard,collaborative,online,draw,paint,shared,realtime,wbo,whitebophir,wasteland"
+      content="кровоизлияние,wasteland,whiteboard,collaborative,online,draw,paint,shared,realtime,wbo,whitebophir"
     />
     <link rel="icon" type="image/x-icon" sizes="16x16" href="favicon.ico" />
     <link rel="apple-touch-icon" href="favicon.svg" />
     <link rel="mask-icon" href="favicon.svg" color="black" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:url" content="{{baseUrl}}" />
-    <meta property="og:title" content="wasteland_w / board" />
+    <meta property="og:title" content="кровоизлияние. / доска" />
     <meta
       property="og:description"
-      content="Общая онлайн-доска для идей, схем и быстрых набросков"
+      content="Общая онлайн-доска канала кровоизлияние. для разборов, мемов, тестов и коллективных набросков"
     />
     <meta property="og:image" content="{{baseUrl}}/favicon.svg" />
     <link rel="canonical" href="?lang={{language}}" />
@@ -34,11 +34,11 @@
   <body>
     <header class="site-header">
       <a class="site-brand" href="https://wastelandw.ru" rel="external"
-        >wasteland_w</a
+        >кровоизлияние.</a
       >
       <nav class="site-nav" aria-label="Основная навигация">
-        <a href="boards/anonymous">Общая доска</a>
-        <a href="random">Приватная</a>
+        <a href="boards/anonymous">Общий лист</a>
+        <a href="random">Тихий лист</a>
       </nav>
       <nav class="lang-selector" aria-label="Language selector">
         <span>{{language}}</span>
@@ -55,18 +55,19 @@
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">онлайн-доска</p>
-          <h1 id="hero-title">wasteland_w / board</h1>
+          <p class="eyebrow">[ ☆ ] общий лист</p>
+          <h1 id="hero-title">кровоизлияние. / доска</h1>
           <p class="lead">
-            Пространство для быстрых схем, коллективных набросков и разговоров,
-            которым нужен общий визуальный слой.
+            Место, где можно разложить мысль по клеткам: нарисовать маску,
+            отметить когнитивную ловушку, собрать бинго тревоги или накидать
+            идею для следующего разбора.
           </p>
           <div class="hero-actions" aria-label="Основные действия">
             <a href="boards/anonymous" class="wbo-button primary"
-              >Открыть общую доску</a
+              >Открыть общий лист</a
             >
             <a href="random" class="wbo-button secondary"
-              >Создать приватную</a
+              >Создать тихий лист</a
             >
           </div>
         </div>
@@ -74,7 +75,7 @@
         <figure class="hero-media">
           <img
             src="frontpage-illustration.svg"
-            alt="Люди рисуют на общей доске"
+            alt="Люди рисуют на общем листе"
             width="700"
             height="560"
           />
@@ -83,16 +84,16 @@
 
       <section class="board-panel" aria-labelledby="named-board-title">
         <div class="board-intro">
-          <p class="section-label">именованная доска</p>
-          <h2 id="named-board-title">Откройте свой постоянный лист</h2>
+          <p class="section-label">именованный лист</p>
+          <h2 id="named-board-title">Назовите тему и возвращайтесь к ней</h2>
           <p>
-            Название превращается в ссылку. Её можно отправить команде,
-            участникам встречи или себе на будущее.
+            Подходит для конкурсов, разборов, подборок референсов и всех
+            случаев, где мысль хочется не закрыть, а продолжить позже.
           </p>
         </div>
 
         <form id="named-board-form" action="boards" method="GET">
-          <label for="board">Название доски</label>
+          <label for="board">Название листа</label>
           <div class="field-row">
             <input
               type="text"
@@ -102,7 +103,7 @@
               autocapitalize="off"
               autocomplete="off"
               spellcheck="false"
-              placeholder="Название доски"
+              placeholder="например: социальная-маска"
             />
             <input type="submit" value="Go" />
           </div>
@@ -115,24 +116,24 @@
 
       <section class="notes" aria-label="Как использовать доску">
         <article>
-          <h2>Общая</h2>
+          <h2>[ ☆ ] Общий лист</h2>
           <p>
-            Анонимная доска подходит для открытого черновика: идеи появляются
-            сразу, без регистрации и подготовки.
+            Открытый черновик для подписчиков: можно дорисовать ассоциацию,
+            оставить знак, собрать карту темы или быстро показать мысль.
           </p>
         </article>
         <article>
-          <h2>Приватная</h2>
+          <h2>[ ☆ ] Тихий лист</h2>
           <p>
-            Случайная ссылка ограничивает круг участников теми, кому вы её
-            отправили.
+            Ссылка живет у тех, кому вы её отправили. Удобно для авторов,
+            подготовки поста, теста, конкурса или внутреннего наброска.
           </p>
         </article>
         <article>
-          <h2>Живая</h2>
+          <h2>[ ☆ ] Живой слой</h2>
           <p>
-            Изменения приходят через realtime-соединение, поэтому доска работает
-            как общий рабочий стол.
+            Все движения появляются сразу. Видно, как чужая мысль цепляет твою,
+            а черновик постепенно становится общей картинкой.
           </p>
         </article>
       </section>
@@ -140,11 +141,12 @@
 
     <footer class="site-footer">
       <a href="https://wastelandw.ru" rel="external">wastelandw.ru</a>
+      <a href="https://t.me/+9TH3NTAGzVllMTQ6" rel="external">telegram</a>
       <a
         href="https://github.com/z0rgoyok/whitebophir"
         rel="external"
         title="{{translations.view_source}}"
-        >source</a
+        >исходник</a
       >
     </footer>
   </body>

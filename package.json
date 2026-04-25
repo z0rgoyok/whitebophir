@@ -52,7 +52,7 @@
   "main": "./server/server.mjs",
   "repository": {
     "type": "git",
-    "url": "http://github.com/lovasoa/whitebophir.git"
+    "url": "https://github.com/z0rgoyok/whitebophir.git"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.12",

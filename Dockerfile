@@ -1,6 +1,6 @@
 FROM node:24-alpine
 
-LABEL org.opencontainers.image.source="https://github.com/lovasoa/whitebophir"
+LABEL org.opencontainers.image.source="https://github.com/z0rgoyok/whitebophir"
 
 WORKDIR /opt/app
 
